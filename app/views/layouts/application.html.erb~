@@ -14,7 +14,7 @@
         <%= image_tag "Computer.jpg",size:"100x100",align:"left" %>
       </a>
        <div class="title"style ="padding-left:60px;" >
-	<h1><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color=white face="">Campazine</font></h1>
+	<h1><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color=white face="Arial">Campazine</font></h1>
 	</div>
     </div>
   </div>
