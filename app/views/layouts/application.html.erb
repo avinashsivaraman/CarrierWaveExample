@@ -7,8 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body style = "background-color:SILVER" >
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid" style = "padding-left:180px; background-color:red;">
+  <div class="container-fluid" style = "padding-left:180px; background-color:black;">
     <div class="navbar-header">
       <a class="navbar-brand" href="http://0.0.0.0:3000/resumes">
         <%= image_tag "Computer.jpg",size:"100x100",align:"left" %>
@@ -19,6 +18,19 @@
     </div>
   </div>
 </nav>
+<div class="navbar">
+  <div class="navbar-inner">
+   
+    <a class="brand" href="#">Compazine</a>
+
+        <form class="navbar-search pull-left">
+  <input type="text" class="search-query" placeholder="Search">
+    </form>
+
+   </div>
+</div>
+
+
 
 <div class="container" style="padding-top:20px;">
 <%= yield %>
